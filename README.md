@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where a catch-all route (`/*`) conflicts with other defined routes. The `/*` route, intended to handle 404 errors, matches all paths, preventing other routes from working correctly. The solution involves careful ordering and specificity of routes.
